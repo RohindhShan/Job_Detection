@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated dataset & heavy model weights (prevent repo bloat)
+dataset/
+test_samples/
+*.zip
+*.keras
+*.h5
+
+# OS / Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch & temporary dirs
+scratch/
+temp_repo/
